@@ -28,7 +28,7 @@
 
 ## hasil projek praktikum 2
 ![masterplan](assets/ss_masterplan.png)
-1. proses menambah tugas, mengedit deskripsi, dan menampilkan pesan kelengkapan tugas.
+1. Proses menambah tugas, mengedit deskripsi, dan menampilkan pesan kelengkapan tugas.
 
 2. Langkah 1: Menjelaskan InheritedWidget dan Penggunaan InheritedNotifier
     - InheritedWidget adalah widget khusus di Flutter yang menyediakan akses data ke seluruh widget di bawahnya tanpa harus mengirim data secara manual ke setiap widget.
@@ -36,9 +36,7 @@
 
 3. Langkah 3 Menambah Method completedCount dan completenessMessage: Kedua method ini membantu menghitung berapa tugas yang sudah selesai dan membuat pesan seperti "2 dari 5 tugas selesai" agar tampil di UI. Ini membuat tampilan lebih informatif bagi pengguna.
 
-4. Menambahkan sesuatu di dalam projek
-    - Langkah 11 (initState): Fungsi ini menyiapkan kontrol scroll ketika widget pertama kali dibuat. Saat pengguna menggulir daftar tugas, fokus pada TextField otomatis hilang, sehingga keyboard tidak muncul atau mengganggu tampilan.
-    - Langkah 13 (dispose): Fungsi ini digunakan untuk membersihkan kontrol scroll ketika widget tidak digunakan lagi, membantu mencegah aplikasi menggunakan memori secara berlebihan
+4. Langkah 9 menambahkan SafeArea untuk menampilkan completenessMessage dari plan dalam area aman layar, sehingga tidak terpotong oleh elemen perangkat (seperti notch). Kode ini memastikan bahwa teks ditampilkan di area yang terlihat, sambil memisahkan tampilan (view) dari model (Plan).
 
 ---
 
