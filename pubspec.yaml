@@ -62,6 +62,7 @@ flutter:
   assets:
    - assets/masterplan.gif
    - assets/ss_masterplan.png
+   - assets/masterplan3.gif
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

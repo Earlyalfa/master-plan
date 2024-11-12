@@ -43,3 +43,4 @@
 ---
 
 ## hasil projek praktikum 3
+![masterplan](assets/masterplan3.gif)
