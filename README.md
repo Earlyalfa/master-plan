@@ -42,3 +42,30 @@
 
 ## hasil projek praktikum 3
 ![masterplan](assets/masterplan3.gif)
+1. MaterialApp
+Ini adalah widget utama yang berfungsi sebagai root aplikasi. MaterialApp menyediakan tema dan navigasi global untuk aplikasi.
+
+2. PlanProvider
+Widget ini kemungkinan berperan sebagai penyedia data (state management). Ia mengelola dan menyediakan data atau state kepada widget turunannya.
+
+3. PlanCreatorScreen dan PlanScreen
+- PlanCreatorScreen: Merupakan layar tempat pengguna dapat membuat rencana.
+- PlanScreen: Layar utama lainnya yang menampilkan rencana yang dibuat pengguna. Transisi antara layar dilakukan dengan Navigator Push.
+
+4. Scaffold
+Berfungsi sebagai kerangka layar. Scaffold menyediakan struktur dasar seperti AppBar, Body, FloatingActionButton, dan lainnya.
+
+5. Column
+Widget ini digunakan untuk menyusun elemen secara vertikal. Baik di PlanCreatorScreen maupun PlanScreen, Column menjadi struktur utama.
+
+6. Expanded dan SafeArea
+- Expanded: Digunakan untuk mengatur ukuran widget agar menyesuaikan ruang yang tersedia.
+- SafeArea: Memastikan konten tidak tumpang tindih dengan area sistem (seperti notch atau status bar).
+
+7. TextField, ListView, dan Text
+- TextField: Pada PlanCreatorScreen, digunakan untuk input teks dari pengguna.
+- ListView: Digunakan untuk menampilkan daftar item dalam format scrollable.
+- Text: Digunakan untuk menampilkan informasi statis atau dinamis.
+
+Kesimpulan:
+Diagram ini menjelaskan alur logika navigasi dan hierarki widget dalam aplikasi. Mulai dari widget utama (MaterialApp) hingga interaksi pengguna dengan input (TextField) dan tampilan data yang dihasilkan dalam bentuk daftar (ListView). Navigasi antar layar diatur melalui Navigator Push.
